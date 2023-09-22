@@ -82,7 +82,20 @@ h1{
   }
   /*=======================Travel-content=========================*/
 
+  .vehical-card{
+    display: flex;
+    width: 900px;
+    height: 50px;
+    padding: 5px;
+  }
+  
+  .vehical-card .vehical-image img{
+    width: 200px;
+  }
 
+  .vehical-card .company-icon img{
+    width: 5px;
+  }
 
   /*========================end=========================*/
 
