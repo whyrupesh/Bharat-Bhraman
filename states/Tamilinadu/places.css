@@ -73,8 +73,30 @@ h1{
   }
   /* navigation ends */
 
+  .PlaceBlog{
+    margin: 0 auto;
+    width: 1200px;
+   }
+   .aboutstate{
+    margin-top: 70px;
+    display: flex;
+   }
   
+   .aboutstate img{
+    border-radius: 20px;
+    width: 500px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+   }
   
+   .scam{
+    color: #fefefe;
+    padding: 5px;
+    height: 100px;
+    background-color: rgb(120, 48, 48);
+    margin: 20px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+   }
 
   /* ending-part */
 
