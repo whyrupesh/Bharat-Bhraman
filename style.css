@@ -26,7 +26,7 @@ h1{
     /* flex-flow: row wrap; */
     width: 100%;
     height: 90px;
-    background-color: #3052cd;
+    background-color: #2f3542;
     /* box-shadow: 3px 3px 10px lightslategray; */
     align-items: center;
     justify-content: right;
@@ -68,7 +68,7 @@ h1{
   }
   
   .menu li a:hover {
-    color: midnightblue;
+    color: #ff7f50;
     text-decoration: underline;
   }
 
@@ -245,7 +245,7 @@ h1{
 
   .demo{
     height: 250px;
-    background-color: #3052cd;
+    background-color: #2f3542;
   }
 
 
