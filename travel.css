@@ -82,7 +82,10 @@ h1{
   }
   /*=======================Travel-content=========================*/
 
-
+.travel-content{
+  margin: 0 auto;
+  width: 800px;
+}
   .vehical-card{
     display: flex;
     align-items: center;
@@ -99,6 +102,44 @@ h1{
 
   .vehical-card .company-icon img{
     width: 25px;
+  }
+
+  .vehical-card-auto{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 130px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  }
+  .vehical-card-auto .vehical-image-auto img{
+    width: 120px;
+    margin: 30px;
+  }
+
+  .vehical-card-auto .company-icon-auto img{
+    width: 50px;
+    margin: 0px;
+  }
+
+  .vehical-card-suv{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 130px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  }
+  .vehical-card-suv .vehical-image-suv img{
+    width: 120px;
+    margin: 30px;
+  }
+
+  .vehical-card-suv .company-icon-auto img{
+    width: 50px;
+    margin: 0px;
   }
 
   /*========================end=========================*/
