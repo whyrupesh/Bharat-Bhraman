@@ -90,21 +90,33 @@ h1{
     font-family:  sans-serif;
 }
 
-/* Style the search bar input */
-  .search-bar {
-    /* Set the width of the search bar */
-    width: 300px;
-  
-    /* Add padding to the search bar */
-    padding: 5px;
-  
-    /* Optional: Remove the default border and outline on focus */
-    border: none;
-    outline: none;
-  
-    /* Optional: Add a box-shadow on focus to indicate focus */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  }
+/* Style for the search container */
+.search-container {
+  position: relative;
+  margin: 20px;
+}
+
+/* Style for the search input */
+#search {
+  margin-top: 0px;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style for the box that covers the search bar */
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  display: none; /* Initially hidden */
+  z-index: 1; /* Place it above the search bar */
+}
 
 .animated-text{
     font-size: 28px;
