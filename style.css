@@ -26,7 +26,7 @@ h1{
     /* flex-flow: row wrap; */
     width: 100%;
     height: 90px;
-    background-color: #2f3542;
+    background-color: #071952;
     /* box-shadow: 3px 3px 10px lightslategray; */
     align-items: center;
     justify-content: right;
@@ -81,7 +81,7 @@ h1{
   .home-pic{
     margin: 0;
     padding: 0;
-    background-color: #2f3542;
+    background-color: #071952;
     color: #fff;
     height: 350px;
     display: flex;
@@ -127,7 +127,7 @@ h1{
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
-    background-color: #2f3542;
+    background-color: #071952;
     border-left: 2px solid #ff7f50;
     right: -8px;
     animation: cursor .6s infinite, typing 25.5s steps(25) infinite;
@@ -245,7 +245,7 @@ h1{
 
   .demo{
     height: 250px;
-    background-color: #2f3542;
+    background-color: #071952;
   }
 
 
