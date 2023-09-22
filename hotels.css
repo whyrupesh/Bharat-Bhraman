@@ -72,6 +72,12 @@ h1{
     height: 200px;
 }
 
+.search-box{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
 /*========================Hotel content=========================*/
 
 .Hotel-content{
