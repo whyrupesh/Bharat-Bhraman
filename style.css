@@ -68,7 +68,7 @@ h1{
   }
   
   .menu li a:hover {
-    color: #ff7f50;
+    color: orange;
     text-decoration: underline;
   }
 
