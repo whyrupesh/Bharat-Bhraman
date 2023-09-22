@@ -86,6 +86,44 @@ h1{
   margin: 0 auto;
   width: 800px;
 }
+.search{
+  margin: 20px 20px 50px 20px;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 59%;
+  background: #f1f1f1;
+  
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  height: 42px;
+  padding: 10px;
+  background: #071952;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   .vehical-card{
     display: flex;
     align-items: center;
@@ -94,6 +132,10 @@ h1{
     padding: 10px;
     margin: 20px;
     box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  }
+  .vehical-card:hover{
+    box-shadow: 3px 3px 10px lightsteelblue;
+    transform: scale(1.005);
   }
   
   .vehical-card .vehical-image img{
@@ -122,6 +164,10 @@ h1{
     width: 50px;
     margin: 0px;
   }
+  .vehical-card-auto:hover{
+    box-shadow: 3px 3px 10px lightsteelblue;
+    transform: scale(1.005);
+  }
 
   .vehical-card-suv{
     display: flex;
@@ -140,6 +186,10 @@ h1{
   .vehical-card-suv .company-icon-auto img{
     width: 50px;
     margin: 0px;
+  }
+  .vehical-card-suv:hover{
+    box-shadow: 3px 3px 10px lightsteelblue;
+    transform: scale(1.005);
   }
 
   /*========================end=========================*/
