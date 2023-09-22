@@ -74,6 +74,46 @@ h1{
 
 /*========================Hotel content=========================*/
 
+.Hotel-content{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+
+.Hotel-card{
+  width: 60rem;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 20px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.Hotel-card img{
+  width: 200px;
+  height: 120px;
+  margin-right: 2rem;
+  border-radius: 5%;
+}
+
+.Hotel-name-price{
+  display: flex;
+  align-items: center;
+}
+
+.Hotel-name-price h3{
+  margin-left: 20rem;
+}
+.Hotel-card:hover {
+  box-shadow: 3px 3px 10px lightsteelblue;
+  transform: scale(1.005);
+}
+.wrapper{
+  display: flex;
+}
+
+
+
 
 
 
