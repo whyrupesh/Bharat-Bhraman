@@ -34,7 +34,21 @@ h1{
     top: 0;
     z-index: 1;
   }
-
+/* Style the search bar input */
+  .search-bar {
+    /* Set the width of the search bar */
+    width: 300px;
+  
+    /* Add padding to the search bar */
+    padding: 5px;
+  
+    /* Optional: Remove the default border and outline on focus */
+    border: none;
+    outline: none;
+  
+    /* Optional: Add a box-shadow on focus to indicate focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
   
   .logo img{
     height: 200px;
