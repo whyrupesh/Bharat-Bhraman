@@ -118,7 +118,7 @@ h1{
 
 .animated-text span::before{
     content: "Namaste";
-    color: #ff7f50;
+    /*color: #ff7f50;*/color: orange;
     animation: words 26s infinite;
 }
 
