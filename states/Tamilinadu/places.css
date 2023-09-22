@@ -1,3 +1,8 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
 
@@ -21,7 +26,7 @@ h1{
     /* flex-flow: row wrap; */
     width: 100%;
     height: 90px;
-    background-color: #2f3542;
+    background-color: #071952;
     /* box-shadow: 3px 3px 10px lightslategray; */
     align-items: center;
     justify-content: right;
@@ -66,14 +71,38 @@ h1{
     color: orange;
     text-decoration: underline;
   }
+  /* navigation ends */
 
+  .PlaceBlog{
+    margin: 0 auto;
+    width: 1200px;
+   }
+   .aboutstate{
+    margin-top: 70px;
+    display: flex;
+   }
+  
+   .aboutstate img{
+    border-radius: 20px;
+    width: 500px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+   }
+  
+   .scam{
+    color: #fefefe;
+    padding: 5px;
+    height: 100px;
+    background-color: rgb(120, 48, 48);
+    margin: 20px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+   }
 
+  /* ending-part */
 
-   /* ending-part */
-
-   .demo{
+  .demo{
     height: 250px;
-    background-color: #2f3542;
+    background-color: #071952;
   }
 
 
@@ -106,3 +135,12 @@ h1{
   color: #fff;
   text-decoration: none;
 }
+/* .social {
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid black;  
+}
+
+.social a {
+  color: #000000;
+} */
