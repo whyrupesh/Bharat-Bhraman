@@ -5,6 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - BharatBhraman</title>
     <style>
+
+        /*========================Nav Bar=========================*/
+        .nav-bar {
+                display: flex;
+                /* flex-flow: row wrap; */
+                width: 100%;
+                height: 90px;
+                background-color: #3052cd;
+                /* box-shadow: 3px 3px 10px lightslategray; */
+                align-items: center;
+                justify-content: right;
+                position: sticky;
+                top: 0;
+                z-index: 1;
+            }
+            
+            .logo img{
+                height: 200px;
+                width: auto;
+            }
+
+            ul.menu {
+                flex: 1;
+                display: flex;
+                flex-flow: row wrap;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+            .menu li {
+                flex: 1;
+                list-style-type: none;
+                font-size: 16px;
+                /* font-weight: bold; */
+                /* font-family: 'Outfit', sans-serif; */
+                font-family: 'Manrope', sans-serif;
+                text-align: center;
+                display: inline; /* Display items horizontally */
+            }
+            
+            .menu li a {
+                text-decoration: none;
+                color: #fefefe;
+                text-transform: uppercase;
+            }
+            
+            .menu li a:hover {
+                color: midnightblue;
+                text-decoration: underline;
+            }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -59,6 +110,23 @@
     </style>
 </head>
 <body>
+        <!--===========Nav Bar=================-->
+        <section class="nav-bar">
+            <div class="logo">
+                <a href="/index.html"><img src="pic/Bharat Bhraman-white.png" alt=""></a>
+                
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="hotel.html">Hotels</a></li>
+                <li><a href="hireguide.html">Hire Guide</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+            </div>
+    
+        </section>
+
     <header>
         <h1>About Us</h1>
         <p>Welcome to BharatBhraman - Your Ultimate Indian Tourism Companion!</p>
@@ -112,27 +180,27 @@
         
         <section class="contact-info">
             <h2>Contact Information</h2>
-            <a href="YourSocialMediaLink2"><img src="pic/gmaillogo.png" alt=""></a>
+            <a href="YourSocialMediaLink2"><img src="icon/gmaillogo.png" alt=""></a>
             <!-- Replace [Contact Information] with your actual contact information -->
         </section>
         
         <section class="social-links">
             <h2>Follow Us on Social Media</h2>
-            <a href="YourSocialMediaLink1"><img src="pic/fblogo.png" alt=""></a>
+            <a href="YourSocialMediaLink1"><img src="icon/fblogo.png" alt=""></a>
             
-            <a href="YourSocialMediaLink2"><img src="pic/Instalogo.png" alt=""></a>
+            <a href="YourSocialMediaLink2"><img src="icon/Instalogo.png" alt=""></a>
             <!-- Add more social media links and logos as needed -->
         </section>
         
         <section>
             <h2>Customer Support Information</h2>
-            <a href="Helpline"><img src="pic/helplinelogo.png" alt=""></a>
+            <a href="Helpline"><img src="icon/helplinelogo.png" alt=""></a>
             <!-- Replace [Customer Support Information] with your actual customer support information -->
         </section>
         
         <section>
             <h2>Physical Address</h2>
-            <a href="Maps"><img src="pic/Localogo.png" alt=""></a>
+            <a href="Maps"><img src="icon/Localogo.png" alt=""></a>
             <!-- Replace [Physical Address, if applicable] with your actual physical address -->
         </section>
     </div>

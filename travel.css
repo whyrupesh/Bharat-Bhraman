@@ -21,7 +21,7 @@ h1{
     /* flex-flow: row wrap; */
     width: 100%;
     height: 90px;
-    background-color: #4c5060;
+    background-color: #3052cd;
     /* box-shadow: 3px 3px 10px lightslategray; */
     align-items: center;
     justify-content: right;
@@ -29,7 +29,21 @@ h1{
     top: 0;
     z-index: 1;
   }
-
+/* Style the search bar input */
+  .search-bar {
+    /* Set the width of the search bar */
+    width: 300px;
+  
+    /* Add padding to the search bar */
+    padding: 5px;
+  
+    /* Optional: Remove the default border and outline on focus */
+    border: none;
+    outline: none;
+  
+    /* Optional: Add a box-shadow on focus to indicate focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
   
   .logo img{
     height: 200px;
@@ -68,75 +82,8 @@ h1{
   }
 
 
-.hotel-page-content{
-    height: 200px;
-}
 
-/*========================Hotel content=========================*/
-
-.Hotel-content{
-  margin: 0 auto;
-  width: 1200px;
-}
-
-
-.Hotel-card{
-  width: 60rem;
-  background-color: #fff;
-  border-radius: 5px;
-  border: 20px;
-  padding: 10px;
-  margin: 20px;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
-}
-.Hotel-card img{
-  width: 200px;
-  height: 120px;
-  margin-right: 2rem;
-  border-radius: 5%;
-}
-
-.Hotel-name-price{
-  display: flex;
-  align-items: center;
-}
-
-.Hotel-name-price h3{
-  margin-left: 20rem;
-}
-.Hotel-card:hover {
-  box-shadow: 3px 3px 10px lightsteelblue;
-  transform: scale(1.005);
-}
-.wrapper{
-  display: flex;
-}
-
-/*=======================Hotel-content========================*/
-
-* {
-  box-sizing: border-box;
-}
-
-/* Style the search field */
-form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 20%;
-  background: #f1f1f1;
-}
-
-
-
-
-
-
-
-
-
-/*========================end=========================*/
+  /*========================end=========================*/
 
   .demo{
     height: 250px;
