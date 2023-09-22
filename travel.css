@@ -84,9 +84,12 @@ h1{
 
   .vehical-card{
     display: flex;
-    width: 900px;
-    height: 50px;
-    padding: 5px;
+    align-items: center;
+    width: 600px;
+    height: 130px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
   }
   
   .vehical-card .vehical-image img{
@@ -94,7 +97,7 @@ h1{
   }
 
   .vehical-card .company-icon img{
-    width: 5px;
+    width: 25px;
   }
 
   /*========================end=========================*/
