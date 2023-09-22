@@ -91,25 +91,68 @@ h1{
   width: 700px;
   margin-right: 50px;
  }
-
+ /* <!-- ============place-card-starts============= --> */
  .place-card{
   display: flex;
-  width: 100px;
-  height: 40px;
-  border: 5px;
- }
-.place-card-img{
-  width: 10px;
-  height: auto;
+  width: 60rem;
+  background-color: #fff;
+  border: 20px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.place-card img{
+  width: 200px;
+  height: 120px;
+  margin-right: 2rem;
+  border-radius: 5%;
 }
 
+.place-card:hover {
+  box-shadow: 3px 3px 10px lightsteelblue;
+  transform: scale(1.005);
+}
+/* <!-- ============place-card-ends============= --> */
 
- .ending{
-    width: auto;
-    height: 350px;
-    background-color: #2f3542;
-    box-shadow: 50px 50px 50px 50px lightslategray;
- }
+
+/* ending-part */
+
+.demo{
+    height: 250px;
+    background-color: #3052cd;
+  }
+
+
+.logo-ending{
+  display: flex;
+}
+.logo-ending img{
+  width: 250px;
+  
+}
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    flex-basis: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.a1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 150px;
+
+}
+
+.a1 a{
+  color: #fff;
+  text-decoration: none;
+}
+
  
 
  
