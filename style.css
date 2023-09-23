@@ -119,9 +119,9 @@ h1{
 }
 
 .animated-text{
-    font-size: 28px;
+    font-size: 50px;
     font-weight: 800;
-    min-width: 280px;
+    min-width: 300px;
 }
 
 .animated-text span{
